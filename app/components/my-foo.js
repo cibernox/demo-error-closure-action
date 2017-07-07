@@ -3,10 +3,12 @@ import layout from '../templates/components/my-foo';
 
 export default Component.extend({
   layout,
-  one: {
-    two: {
-      three() {
-      }
+  three() {
+  },
+
+  actions: {
+    foo() {
+
     }
   }
 });
